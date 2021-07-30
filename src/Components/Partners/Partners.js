@@ -10,23 +10,23 @@ export default function Partners() {
         <div>
 
             <ReactBootStrap.Container>
-                <h1 class="text-center">Our Partners</h1>
+                <h1 class="text-center fw-bolder pt-5">Our Partners</h1>
                 <ReactBootStrap.Row>
                     <ReactBootStrap.Col>
                         <div class="text-center">
                             <img src={BDarmy} alt="" class="img-fluid" ></img>
-                            <p class="text-center">Bangladdesh Army</p>
+                            <p class="text-center fw-bolder pt-3">Bangladesh Army</p>
                         </div>
                     </ReactBootStrap.Col>
                     <ReactBootStrap.Col>
                         <div class="text-center">
                             <img src={Navy} alt="" class="img-fluid" ></img>
-                            <p class="text-center">Bangladdesh Navy</p>
+                            <p class="text-center fw-bolder pt-3">Bangladesh Navy</p>
                         </div>
                     </ReactBootStrap.Col>
                 </ReactBootStrap.Row>
-                <div class="text-center">
-                    <ReactBootStrap.Button variant="primary">Primary</ReactBootStrap.Button>{' '}
+                <div class="text-center py-4">
+                    <ReactBootStrap.Button variant="primary rounded-pill">All Partners</ReactBootStrap.Button>{' '}
                 </div>
             </ReactBootStrap.Container>
         </div>

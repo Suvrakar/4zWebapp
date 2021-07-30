@@ -6,16 +6,16 @@ import whiteLogo from "../../images/4z Logo White.svg"
 export default function Footer() {
     return (
         <div>
-            <div className="Footer">
+            <div className="Footer py-5">
                 <ReactBootStrap.Container>
                     <ReactBootStrap.Row>
                         <ReactBootStrap.Col>
                             <img src={whiteLogo} alt="Logo"></img>
-                            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec arcu consectetur, aliquet</p>
+                            <p class="text-white pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec arcu consectetur, aliquet</p>
                         </ReactBootStrap.Col>
                         <ReactBootStrap.Col>
                             <p class="text-white">
-                                <h4>Navigation</h4>
+                                <h4 className="pb-3">Navigation</h4>
                                 <p>Home</p>
                                 <p>Our Services</p>
                                 <p>Projects</p>
@@ -25,7 +25,7 @@ export default function Footer() {
                         </ReactBootStrap.Col>
                         <ReactBootStrap.Col>
                         <p class="text-white">
-                                <h4>Our Contact</h4>
+                                <h4 className="pb-3" >Our Contact</h4>
                                 <p>4z International Limited <br></br>
                                Flat 5B, House 54, Road 10, <br></br>
                                Block E, Banani <br></br>

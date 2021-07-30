@@ -11,33 +11,33 @@ export default function Services() {
         <div>
 
             <ReactBootStrap.Container>
-                <h1 class="text-center">Our Services</h1>
+                <h1 class="text-center pb-5 fw-bolder">Our Services</h1>
                 <ReactBootStrap.Row>
                     <ReactBootStrap.Col>
-                        <div class="text-center">
+                        <div class="bordertext-center p-3" id="">
                             <img src={Construction} alt="" class="img-fluid" ></img>
-                            <p class="text-center">Construction</p>
+                            <p class="text-center fw-bolder pt-3">Construction</p>
                         </div>
 
                     </ReactBootStrap.Col>
                     <ReactBootStrap.Col>
-                        <div class="text-center">
+                        <div class="text-center p-3 ">
                             <img src={Supply} alt="" class="img-fluid"></img>
-                            <p class="text-center">Supply</p>
+                            <p class="text-center fw-bolder pt-3">Supply</p>
                         </div>
 
                     </ReactBootStrap.Col>
                     <ReactBootStrap.Col>
-                        <div class="text-center">
+                        <div class="text-center p-3 ">
                             <img src={Development} alt="" class="img-fluid"></img>
-                            <p class="text-center">Development</p>
+                            <p class="text-center fw-bolder pt-3">Development</p>
                         </div>
 
                     </ReactBootStrap.Col>
                     <ReactBootStrap.Col>
-                        <div class="text-center">
+                        <div class="text-center p-3 ">
                             <img src={Consultancy} alt="" class="img-fluid"></img>
-                            <p class="text-center">Consultancy</p>
+                            <p class="text-center fw-bolder pt-3">Consultancy</p>
                         </div>
 
                     </ReactBootStrap.Col>
