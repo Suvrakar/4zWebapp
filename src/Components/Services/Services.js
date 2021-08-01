@@ -4,45 +4,51 @@ import Construction from "../../images/construction icon.svg";
 import Supply from "../../images/supply icon.svg";
 import Development from "../../images/development icon.svg";
 import Consultancy from "../../images/consultancy icon.svg";
+import "./Services.css";
 
 
 export default function Services() {
-    return (
-        <div>
 
-            <ReactBootStrap.Container>
-                <h1 class="text-center pb-5 fw-bolder">Our Services</h1>
-                <ReactBootStrap.Row>
-                    <ReactBootStrap.Col>
-                        <div class="bordertext-center p-3" id="">
-                            <img src={Construction} alt="" class="img-fluid" ></img>
-                            <p class="text-center fw-bolder pt-3">Construction</p>
-                        </div>
+        return (
+            <div>
+        
+                <ReactBootStrap.Container>
+                    <h1 class="text-center pb-4 fw-bolder">Our Services</h1>
+                    <ReactBootStrap.Row>
 
-                    </ReactBootStrap.Col>
-                    <ReactBootStrap.Col>
-                        <div class="text-center p-3 ">
-                            <img src={Supply} alt="" class="img-fluid"></img>
-                            <p class="text-center fw-bolder pt-3">Supply</p>
-                        </div>
+                        <ReactBootStrap.Col>
+                            <div class="text-center p-3 effect" id="">
+                                <img src={Construction} alt="" class="img-fluid " ></img>
+                                <p class="text-center fw-bolder pt-3">Construction</p>
+                            </div>
+                        </ReactBootStrap.Col>
 
-                    </ReactBootStrap.Col>
-                    <ReactBootStrap.Col>
-                        <div class="text-center p-3 ">
-                            <img src={Development} alt="" class="img-fluid"></img>
-                            <p class="text-center fw-bolder pt-3">Development</p>
-                        </div>
+                        <ReactBootStrap.Col>
+                            <div class="text-center p-3 effect ">
+                                <img src={Supply} alt="" class="img-fluid"></img>
+                                <p class="text-center fw-bolder pt-3">Supply</p>
+                            </div>
 
-                    </ReactBootStrap.Col>
-                    <ReactBootStrap.Col>
-                        <div class="text-center p-3 ">
-                            <img src={Consultancy} alt="" class="img-fluid"></img>
-                            <p class="text-center fw-bolder pt-3">Consultancy</p>
-                        </div>
+                        </ReactBootStrap.Col>
 
-                    </ReactBootStrap.Col>
-                </ReactBootStrap.Row>
-            </ReactBootStrap.Container>
-        </div>
-    )
-}
+                        <ReactBootStrap.Col>
+                            <div class="text-center p-3 effect">
+                                <img src={Development} alt="" class="img-fluid"></img>
+                                <p class="text-center fw-bolder pt-3">Development</p>
+                            </div>
+
+                        </ReactBootStrap.Col>
+
+                        <ReactBootStrap.Col>
+                            <div class="text-center p-3 effect ">
+                                <img src={Consultancy} alt="" class="img-fluid"></img>
+                                <p class="text-center fw-bolder pt-3">Consultancy</p>
+                            </div>
+
+                        </ReactBootStrap.Col>
+
+                    </ReactBootStrap.Row>
+                </ReactBootStrap.Container>
+            </div>
+        )
+    }

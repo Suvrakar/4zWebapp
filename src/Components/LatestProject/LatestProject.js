@@ -16,36 +16,54 @@ export default function LatestProject() {
                 <h1 class="text-center fw-bolder py-3 mt-5">Our Latest Projects</h1>
                 <ReactBootStrap.Row>
                     <ReactBootStrap.Col xs={4}>
-                        <div className="ProjectImg ">
-                            <img src={building1} alt="Img1"></img>
+                        <div className="ProjectImg ourPrjct c">
+                            <img src={building1} alt="Img1" class="image"></img>
+                            <div class="middle">
+                                <div class="text">Lorem ipsum</div>
+                            </div>
                         </div>
                     </ReactBootStrap.Col>
                     <ReactBootStrap.Col xs={4}>
-                        <div className="ProjectImg">
-                            <img src={building2} alt="Img1"></img>
+                        <div className="ProjectImg ourPrjct c">
+                            <img src={building2} alt="Img1" class="image"></img>
+                            <div class="middle">
+                                <div class="text">Lorem ipsum</div>
+                            </div>
                         </div>
                     </ReactBootStrap.Col>
                     <ReactBootStrap.Col xs={4}>
-                        <div className="ProjectImg">
-                            <img src={building3} alt="Img1"></img>
+                        <div className="ProjectImg ourPrjct c">
+                            <img src={building3} alt="Img1" class="image"></img>
+                            <div class="middle">
+                                <div class="text">Lorem ipsum</div>
+                            </div>
                         </div>
                     </ReactBootStrap.Col>
                 </ReactBootStrap.Row>
-<br></br>
+                <br></br>
                 <ReactBootStrap.Row>
                     <ReactBootStrap.Col xs={4}>
-                        <div className="ProjectImg">
-                            <img src={building4} alt="Img1"></img>
+                        <div className="ProjectImg ourPrjct c">
+                            <img src={building4} alt="Img1" class="image"></img>
+                            <div class="middle">
+                                <div class="text">Lorem ipsum</div>
+                            </div>
                         </div>
                     </ReactBootStrap.Col>
                     <ReactBootStrap.Col xs={4}>
-                        <div className="ProjectImg">
-                            <img src={building5} alt="Img1"></img>
+                        <div className="ProjectImg ourPrjct c">
+                            <img src={building5} alt="Img1" class="image"></img>
+                            <div class="middle">
+                                <div class="text">Lorem ipsum</div>
+                            </div>
                         </div>
                     </ReactBootStrap.Col>
                     <ReactBootStrap.Col xs={4}>
-                        <div className="ProjectImg">
-                            <img src={building6} alt="Img1"></img>
+                        <div className="ProjectImg ourPrjct c">
+                            <img src={building6} alt="Img1" class="image"></img>
+                            <div class="middle">
+                                <div class="text">Lorem ipsum</div>
+                            </div>
                         </div>
                     </ReactBootStrap.Col>
                 </ReactBootStrap.Row>

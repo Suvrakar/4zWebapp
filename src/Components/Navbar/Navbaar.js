@@ -17,7 +17,7 @@ export default function Navbaar() {
           <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
             <ReactBootStrap.Nav className="me-auto">
-              <ReactBootStrap.Nav.Link href="" className="fw-bolder">Home</ReactBootStrap.Nav.Link>
+              <ReactBootStrap.Nav.Link href="/" className="fw-bolder">Home</ReactBootStrap.Nav.Link>
               <ReactBootStrap.Nav.Link href="services" className="fw-bolder">Our Services</ReactBootStrap.Nav.Link>
               <ReactBootStrap.Nav.Link href="projects" className="fw-bolder">Projects</ReactBootStrap.Nav.Link>
               <ReactBootStrap.NavDropdown title="About Us"className="fw-bolder" id="collasible-nav-dropdown">
