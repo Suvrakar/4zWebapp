@@ -13,8 +13,17 @@
 } */
 
 .stripe{
-    height: 50px;
-    width: 5px;
+    height: 45px;
+    width: 3px;
+    background: rgb(3, 2, 56);
+    position: absolute;
+    left: 50%;
+    top: -90%;
+}
+
+.stripe:hover{
+    height: 45px;
+    width: 3px;
     background: rgb(3, 2, 56);
     position: absolute;
     left: 50%;
