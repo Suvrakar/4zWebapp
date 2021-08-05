@@ -47,7 +47,7 @@
   },
   "git": {
     "scripts": {
-      "pre-push": "npm run build && surge --project ./build --domain example-githooks.surge.sh"
+      "pre-push": "npm run build && mv build/index.html build/200.html && surge --project ./build --domain fourzs.surge.sh"
     }
   }
 }

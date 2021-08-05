@@ -15,7 +15,7 @@
 .stripe{
     height: 50px;
     width: 5px;
-    background: aqua;
+    background: rgb(3, 2, 56);
     position: absolute;
     left: 50%;
     top: -90%;
