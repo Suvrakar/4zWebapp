@@ -1,5 +1,6 @@
 import React from 'react'
 import * as ReactBootStrap from "react-bootstrap"
+import Form from "../Components/Form/Form"
 // import Iframe from 'react-iframe'
 
 export default function ContactUs() {

@@ -6,3 +6,31 @@
 .MainLogo img{
     width: 80px;
 }
+
+
+/* .mynav:hover{
+    color: aqua !important;
+} */
+
+.stripe{
+    height: 50px;
+    width: 5px;
+    background: aqua;
+    position: absolute;
+    left: 50%;
+    top: -90%;
+}
+
+
+
+.mynav{
+    position: relative;
+}
+
+.mynav:hover > .stripe {
+    top: -200%;
+}
+
+/* .a:hover{
+ 
+} */

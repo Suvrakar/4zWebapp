@@ -15,6 +15,7 @@ import Projects from './Pages/Projects';
 import OurProjects from './Pages/OurProjects';
 import OurServices from './Pages/OurServices';
 import Home from './Pages/Home';
+import Form from "../src/Components/Form/Form"
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
     <div className="App">
 
       <Navbaar></Navbaar>
-
+      
       {/* <Hero></Hero>
       <Services></Services>
       <LatestProject></LatestProject>

@@ -14,7 +14,7 @@ export default function OurServices() {
                     {Array.from({ length: 4 }).map((_, idx) => (
                         <ReactBootStrap.Col>
                             <ReactBootStrap.Card>
-                                <ReactBootStrap.Card.Img variant="top" src="holder.js/100px160" />
+                            <ReactBootStrap.Card.Img variant="top" src="https://picsum.photos/id/2/200/100" />
                                 <ReactBootStrap.Card.Body>
                                     <ReactBootStrap.Card.Title>Card</ReactBootStrap.Card.Title>
                                     <ReactBootStrap.Card.Text>
