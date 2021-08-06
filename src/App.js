@@ -16,14 +16,18 @@ import OurProjects from './Pages/OurProjects';
 import OurServices from './Pages/OurServices';
 import Home from './Pages/Home';
 import Form from "../src/Components/Form/Form"
+import { Helmet } from 'react-helmet';
 
 
 function App() {
   return (
     <div className="App">
+      <Helmet>
+        <title>FourZs</title>
+      </Helmet>
 
       <Navbaar></Navbaar>
-      
+
       {/* <Hero></Hero>
       <Services></Services>
       <LatestProject></LatestProject>
@@ -32,7 +36,7 @@ function App() {
 
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={()=><Home />} />
+          <Route exact path="/" component={() => <Home />} />
           <Route path="/about" component={() => <AboutUs />} />
           <Route path="/contact" component={() => <ContactUs />} />
           <Route path="/projects" component={() => <Projects />} />
