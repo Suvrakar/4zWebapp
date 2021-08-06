@@ -1,7 +1,7 @@
 import React from 'react'
 import "./NavBar.css"
 import * as ReactBootStrap from 'react-bootstrap';
-import { default as logo } from "../../images/4z Logo Blue.svg"
+import { default as logo } from "../../images/4zLogo.svg"
 
 export default function Navbaar() {
   return (

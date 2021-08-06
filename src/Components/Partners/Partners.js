@@ -2,6 +2,7 @@ import React from 'react'
 import * as ReactBootStrap from 'react-bootstrap';
 import BDarmy from "../../images/Bangladesh Army Logo.svg";
 import Navy from "../../images/Bangladesh Navy Logo.svg";
+import "./Partners.css"
 
 
 
@@ -26,7 +27,7 @@ export default function Partners() {
                     </ReactBootStrap.Col>
                 </ReactBootStrap.Row>
                 <div class="text-center py-4">
-                    <ReactBootStrap.Button variant="primary rounded-pill">All Partners</ReactBootStrap.Button>{' '}
+                    <ReactBootStrap.Button variant="primary rounded-pill colorBlue">All Partners</ReactBootStrap.Button>{' '}
                 </div>
             </ReactBootStrap.Container>
         </div>
