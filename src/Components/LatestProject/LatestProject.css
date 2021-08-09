@@ -57,8 +57,7 @@
     padding: 16px 32px;
   }
 
-
-.colorBlue{
-  background-color:  rgb(13, 12, 83) !important;
-  border: rgb(13, 12, 83) !important; ;
+  .blue{
+    background-color:  #022644 !important;
+    border: #022644 !important; 
 }

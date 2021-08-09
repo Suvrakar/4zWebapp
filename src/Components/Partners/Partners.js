@@ -27,7 +27,7 @@ export default function Partners() {
                     </ReactBootStrap.Col>
                 </ReactBootStrap.Row>
                 <div class="text-center py-4">
-                    <ReactBootStrap.Button variant="primary rounded-pill colorBlue">All Partners</ReactBootStrap.Button>{' '}
+                    <ReactBootStrap.Button variant="primary rounded-pill blue">All Partners</ReactBootStrap.Button>{' '}
                 </div>
             </ReactBootStrap.Container>
         </div>

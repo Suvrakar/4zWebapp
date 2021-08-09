@@ -22,9 +22,9 @@ import { Helmet } from 'react-helmet';
 function App() {
   return (
     <div className="App">
-      <Helmet>
-        <title>FourZs</title>
-      </Helmet>
+      {/* <Helmet>
+        <title>4z International</title>
+      </Helmet> */}
 
       <Navbaar></Navbaar>
 

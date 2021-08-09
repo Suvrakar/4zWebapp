@@ -31,8 +31,6 @@ export default function Navbaar() {
                 <ReactBootStrap.Nav.Link href="projects" className="fw-bolder">Projects</ReactBootStrap.Nav.Link>
                 <ReactBootStrap.NavDropdown title="About Us" className="fw-bolder" id="collasible-nav-dropdown">
                   <ReactBootStrap.NavDropdown.Item href="about" className="fw-bolder" >Action</ReactBootStrap.NavDropdown.Item>
-                  <ReactBootStrap.NavDropdown.Item href="#action/3.2" className="fw-bolder" >Another action</ReactBootStrap.NavDropdown.Item>
-                  <ReactBootStrap.NavDropdown.Item href="#action/3.3" className="fw-bolder">Something</ReactBootStrap.NavDropdown.Item>
                   <ReactBootStrap.NavDropdown.Divider />
                   <ReactBootStrap.NavDropdown.Item href="#action/3.4" className="fw-bolder" >Separated link</ReactBootStrap.NavDropdown.Item>
                 </ReactBootStrap.NavDropdown>

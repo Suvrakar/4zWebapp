@@ -5,6 +5,7 @@ import Supply from "../../images/supply icon.svg";
 import Development from "../../images/development icon.svg";
 import Consultancy from "../../images/consultancy icon.svg";
 import "./Services.css";
+import { Helmet } from 'react-helmet';
 
 
 export default function Services() {
@@ -17,31 +18,31 @@ export default function Services() {
                     <ReactBootStrap.Row>
 
                         <ReactBootStrap.Col>
-                            <div class="text-center p-3 effect" id="">
-                                <img src={Construction} alt="" class="img-fluid " ></img>
+                            <div class="text-center p-3 effect rounded" id="">
+                                <img src={Construction} alt="" class="img-fluid pt-3" ></img>
                                 <p class="text-center fw-bolder pt-3">Construction</p>
                             </div>
                         </ReactBootStrap.Col>
 
                         <ReactBootStrap.Col>
-                            <div class="text-center p-3 effect ">
-                                <img src={Supply} alt="" class="img-fluid"></img>
+                            <div class="text-center p-3 effect rounded ">
+                                <img src={Supply} alt="" class="img-fluid pt-3"></img>
                                 <p class="text-center fw-bolder pt-3">Supply</p>
                             </div>
 
                         </ReactBootStrap.Col>
 
                         <ReactBootStrap.Col>
-                            <div class="text-center p-3 effect">
-                                <img src={Development} alt="" class="img-fluid"></img>
+                            <div class="text-center p-3 effect rounded">
+                                <img src={Development} alt="" class="img-fluid pt-3"></img>
                                 <p class="text-center fw-bolder pt-3">Development</p>
                             </div>
 
                         </ReactBootStrap.Col>
 
                         <ReactBootStrap.Col>
-                            <div class="text-center p-3 effect ">
-                                <img src={Consultancy} alt="" class="img-fluid"></img>
+                            <div class="text-center p-3 effect rounded ">
+                                <img src={Consultancy} alt="" class="img-fluid pt-3"></img>
                                 <p class="text-center fw-bolder pt-3">Consultancy</p>
                             </div>
 

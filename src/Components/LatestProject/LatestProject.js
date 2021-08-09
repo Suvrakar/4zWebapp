@@ -69,7 +69,7 @@ export default function LatestProject() {
                 </ReactBootStrap.Row>
 
                 <div class="text-center p-4">
-                    <ReactBootStrap.Button variant="primary rounded-pill colorBlue ">All Projects ></ReactBootStrap.Button>{' '}
+                    <ReactBootStrap.Button variant="primary rounded-pill blue ">All Projects ></ReactBootStrap.Button>{' '}
                 </div>
 
             </ReactBootStrap.Container>

@@ -1,9 +1,13 @@
 import React from 'react'
 import * as ReactBootStrap from "react-bootstrap"
+import { Helmet } from 'react-helmet';
 
 export default function Projects() {
     return (
         <div>
+            <Helmet>
+                <title>Projects | 4z International</title>
+            </Helmet>
             <ReactBootStrap.Container className="my-5">
                 <ReactBootStrap.Row xs={1} md={3} className="g-4">
                     {Array.from({ length: 6 }).map((_, idx) => (
