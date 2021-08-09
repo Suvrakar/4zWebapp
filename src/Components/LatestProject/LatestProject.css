@@ -54,10 +54,9 @@
   .text {
     color: white;
     font-size: 30px;
-    padding: 16px 32px;
   }
 
-  .blue{
+.blue{
     background-color:  #022644 !important;
     border: #022644 !important; 
 }

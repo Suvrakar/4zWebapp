@@ -11,38 +11,37 @@ import building6 from "../../images/building 6.png"
 
 export default function LatestProject() {
     return (
-        <div className="padding-0">
-            <ReactBootStrap.Container fluid>
+        <div className="padding-0 px-0">
+         
                 <h1 class="text-center fw-bolder py-3 mt-5">Our Latest Projects</h1>
                 <ReactBootStrap.Row>
-                    <ReactBootStrap.Col xs={4}>
+                    <ReactBootStrap.Col className="padding-0 px-0">
                         <div className="ProjectImg ourPrjct c">
-                            <img src={building1} alt="Img1" class="image"></img>
+                            <img src={building1} alt="Img1" class="image px-0"></img>
                             <div class="middle">
                                 <div class="text">Lorem ipsum</div>
                             </div>
                         </div>
                     </ReactBootStrap.Col>
-                    <ReactBootStrap.Col xs={4}>
-                        <div className="ProjectImg ourPrjct c">
-                            <img src={building2} alt="Img1" class="image"></img>
+                    <ReactBootStrap.Col className="padding-0 px-0">
+                        <div className="ProjectImg ourPrjct c px-0">
+                            <img src={building2} alt="Img1" class="image px-0"></img>
                             <div class="middle">
                                 <div class="text">Lorem ipsum</div>
                             </div>
                         </div>
                     </ReactBootStrap.Col>
-                    <ReactBootStrap.Col xs={4}>
-                        <div className="ProjectImg ourPrjct c">
-                            <img src={building3} alt="Img1" class="image"></img>
+                    <ReactBootStrap.Col className="padding-0 px-0">
+                        <div className="ProjectImg ourPrjct c px-0">
+                            <img src={building3} alt="Img1" class="image px-0"></img>
                             <div class="middle">
                                 <div class="text">Lorem ipsum</div>
                             </div>
                         </div>
                     </ReactBootStrap.Col>
                 </ReactBootStrap.Row>
-                <br></br>
                 <ReactBootStrap.Row>
-                    <ReactBootStrap.Col xs={4}>
+                    <ReactBootStrap.Col className="padding-0 px-0">
                         <div className="ProjectImg ourPrjct c">
                             <img src={building4} alt="Img1" class="image"></img>
                             <div class="middle">
@@ -50,7 +49,7 @@ export default function LatestProject() {
                             </div>
                         </div>
                     </ReactBootStrap.Col>
-                    <ReactBootStrap.Col xs={4}>
+                    <ReactBootStrap.Col className="padding-0 px-0">
                         <div className="ProjectImg ourPrjct c">
                             <img src={building5} alt="Img1" class="image"></img>
                             <div class="middle">
@@ -58,7 +57,7 @@ export default function LatestProject() {
                             </div>
                         </div>
                     </ReactBootStrap.Col>
-                    <ReactBootStrap.Col xs={4}>
+                    <ReactBootStrap.Col className="padding-0 px-0">
                         <div className="ProjectImg ourPrjct c">
                             <img src={building6} alt="Img1" class="image"></img>
                             <div class="middle">
@@ -71,8 +70,6 @@ export default function LatestProject() {
                 <div class="text-center p-4">
                     <ReactBootStrap.Button variant="primary rounded-pill blue ">All Projects ></ReactBootStrap.Button>{' '}
                 </div>
-
-            </ReactBootStrap.Container>
 
 
             {/* <div className="d-flex flex-row">

@@ -48,6 +48,7 @@
     "git-scripts": "^0.4.3",
     "surge": "^0.23.0"
   },
+  
   "git": {
     "scripts": {
       "pre-push": "npm run build && mv build/index.html build/200.html && surge --project ./build --domain fourzs.surge.sh"

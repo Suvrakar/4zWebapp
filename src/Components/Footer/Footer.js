@@ -7,15 +7,15 @@ export default function Footer() {
     return (
         <div>
             <div className="Footer py-5">
-                <ReactBootStrap.Container>
+                <ReactBootStrap.Container className="d-flex justify-content-center">
                     <ReactBootStrap.Row>
-                        <ReactBootStrap.Col>
-                            <img src={whiteLogo} alt="Logo"></img>
+                        <ReactBootStrap.Col className="d-flex align-items-center flex-column">
+                            <img src={whiteLogo} alt="Logo" class=""></img>
                             <p class="text-white pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec arcu consectetur, aliquet</p>
                         </ReactBootStrap.Col>
-                        <ReactBootStrap.Col>
-                            <p class="text-white">
-                                <h4 className="pb-3">Navigation</h4>
+                        <ReactBootStrap.Col className="d-flex align-items-center flex-column">
+                        <p class="text-white">
+                                <h4 className="pb-3 ">Navigation</h4>
                                 <p>Home</p>
                                 <p>Our Services</p>
                                 <p>Projects</p>
@@ -23,7 +23,7 @@ export default function Footer() {
                                 <p>Contact Us</p>
                             </p>
                         </ReactBootStrap.Col>
-                        <ReactBootStrap.Col>
+                        <ReactBootStrap.Col className="d-flex align-items-center flex-column">
                         <p class="text-white">
                                 <h4 className="pb-3" >Our Contact</h4>
                                 <p>4z International Limited <br></br>
