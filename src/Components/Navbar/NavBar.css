@@ -18,7 +18,7 @@
     background: rgb(3, 2, 56);
     position: absolute;
     left: 50%;
-    top: -90%;
+    top: -150%;
 }
 
 .stripe:hover{
@@ -28,6 +28,7 @@
     position: absolute;
     left: 50%;
     top: -90%;
+
 }
 
 
@@ -37,9 +38,24 @@
 }
 
 .mynav:hover > .stripe {
-    top: -200%;
+    top: -600%;
 }
 
-/* .a:hover{
- 
-} */
+.a{
+    /* height: 45px;
+    width: 3px;
+    border: 1px solid black;
+    background: rgb(3, 2, 56);
+    position: absolute;
+    left: 50%;
+    top: -180%; */
+}
+
+.a:hover{
+    /* height: 45px;
+    width: 3px;
+    background: rgb(3, 2, 56);
+    position: absolute;
+    left: 50%;
+    top: -90%; */
+} 

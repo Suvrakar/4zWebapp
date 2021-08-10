@@ -63,7 +63,7 @@ export default function ContactUs() {
                                     <ReactBootStrap.Form.Label>Your Message</ReactBootStrap.Form.Label>
                                     <ReactBootStrap.Form.Control as="textarea" rows={3} />
                                 </ReactBootStrap.Form.Group>
-                                <ReactBootStrap.Button variant="primary rounded-pill" type="submit">
+                                <ReactBootStrap.Button variant="primary rounded-pill blue" type="submit">
                                     Send Message
                                 </ReactBootStrap.Button>
                             </ReactBootStrap.Form>

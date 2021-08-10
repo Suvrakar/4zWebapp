@@ -12,7 +12,7 @@ import building6 from "../../images/building 6.png"
 export default function LatestProject() {
     return (
         <div className="padding-0 px-0">
-         
+            <ReactBootStrap.Container fluid>
                 <h1 class="text-center fw-bolder py-3 mt-5">Our Latest Projects</h1>
                 <ReactBootStrap.Row>
                     <ReactBootStrap.Col className="padding-0 px-0">
@@ -70,6 +70,9 @@ export default function LatestProject() {
                 <div class="text-center p-4">
                     <ReactBootStrap.Button variant="primary rounded-pill blue ">All Projects ></ReactBootStrap.Button>{' '}
                 </div>
+            </ReactBootStrap.Container>
+
+
 
 
             {/* <div className="d-flex flex-row">

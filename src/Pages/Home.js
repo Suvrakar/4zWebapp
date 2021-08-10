@@ -5,6 +5,7 @@ import LatestProject from "../Components/LatestProject/LatestProject"
 import Experience from "../Components/Experience/Experience"
 import Partners from "../Components/Partners/Partners"
 import { Helmet } from 'react-helmet';
+import Slider from '../Components/Slider/Slider';
 
 export default function Home() {
     return (
@@ -13,7 +14,12 @@ export default function Home() {
                 <title>Home | 4z International</title>
             </Helmet>
 
-            <Hero></Hero>
+            <Slider>
+             
+            <Hero/>
+
+            </Slider>
+            <br></br>
             <Services></Services>
             <LatestProject></LatestProject>
             <Experience></Experience>
