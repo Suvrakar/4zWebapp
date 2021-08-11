@@ -13,7 +13,7 @@ export default function Home() {
             <Helmet>
                 <title>Home | 4z International</title>
             </Helmet>
-
+      
             <Slider>
              
             <Hero/>
