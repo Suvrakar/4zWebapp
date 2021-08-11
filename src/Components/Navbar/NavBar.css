@@ -13,13 +13,17 @@
 } */
 
 .stripe{
-    height: 45px;
-    width: 3px;
-    background: rgb(3, 2, 56);
+    height: 100px ;
+    width: 45px ;
+    background: transparent;
     position: absolute;
-    left: 50%;
+    left: 15%;
     top: -150%;
+    animation-timing-function: linear;
+    
+
 }
+
 
 .stripe:hover{
     height: 45px;
@@ -28,6 +32,9 @@
     position: absolute;
     left: 50%;
     top: -90%;
+    transition-timing-function: ease;
+    z-index: 10000000;
+    animation-timing-function: linear;
 
 }
 
@@ -38,7 +45,7 @@
 }
 
 .mynav:hover > .stripe {
-    top: -600%;
+    top: -200%;
 }
 
 .a{

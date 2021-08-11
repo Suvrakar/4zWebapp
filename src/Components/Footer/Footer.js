@@ -52,13 +52,13 @@ export default function Footer() {
                                 <div className="parent d-flex">
                                     <div className="logosofContact">
                                         <div style={{ color: 'white', paddingTop: '35px', paddingRight: '10px' }}>
-                                            <GoLocation size={30} />
+                                            <GoLocation size={25} />
                                         </div>
                                         <div style={{ color: 'white', paddingTop: '55px', paddingRight: '10px' }}>
-                                            <FaPhoneAlt size={25} />
+                                            <FaPhoneAlt size={20} />
                                         </div>
-                                        <div style={{ color: 'white', paddingTop: '28px', paddingRight: '10px' }}>
-                                            <GrMail size={30} />
+                                        <div style={{ color: 'white', paddingTop: '30px', paddingRight: '10px' }}>
+                                            <GrMail size={20} />
                                         </div>
                                     </div>
 
