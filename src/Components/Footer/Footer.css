@@ -11,3 +11,8 @@
 .Smedia{
     text-align: center;
 }
+
+.style{
+    text-decoration: none !important;
+    color: white !important;
+}

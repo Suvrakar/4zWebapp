@@ -15,9 +15,7 @@ export default function Home() {
             </Helmet>
       
             <Slider>
-             
-            <Hero/>
-
+            
             </Slider>
             <br></br>
             <Services></Services>

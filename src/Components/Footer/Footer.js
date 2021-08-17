@@ -11,6 +11,7 @@ import { GrMail } from "react-icons/gr";
 
 
 
+
 export default function Footer() {
 
 
@@ -37,13 +38,17 @@ export default function Footer() {
                         </ReactBootStrap.Col>
 
                         <ReactBootStrap.Col className="d-flex align-items-center flex-column">
-                            <p class="text-white">
+                            <p class="text-white style">
                                 <h4 className="pb-3 ">Navigation</h4>
-                                <p>Home</p>
-                                <p>Our Services</p>
-                                <p>Projects</p>
-                                <p>About Us</p>
-                                <p>Contact Us</p>
+                                {/* <ReactBootStrap.Nav.Link href="projects" className="">
+                                    Projects
+                                </ReactBootStrap.Nav.Link> */}
+                            
+                                <p > <a href="/" class="text-white style">Home</a></p>
+                                <p> <a href="/services" class="text-white style">Our Services</a></p>
+                                <p> <a href="/projects"  class="text-white style">Projects</a></p>
+                                <p> <a href="/about" class="text-white style">About Us</a></p>
+                                <p> <a href="/contact" class="text-white style">Contact Us</a></p>
                             </p>
                         </ReactBootStrap.Col>
                         <ReactBootStrap.Col className="d-flex align-items-center flex-column">
@@ -63,22 +68,23 @@ export default function Footer() {
                                     </div>
 
                                     <div>
-                                    <p>
-                                        4z International Limited <br></br>
-                                        Flat 5B, House 54, Road 10, <br></br>
-                                        Block E, Banani <br></br>
-                                        Dhaka 1213, Bangladesh</p>
+                                        <p>
+                                            4z International Limited <br></br>
+                                            Flat 5B, House 54, Road 10, <br></br>
+                                            Block E, Banani <br></br>
+                                            Dhaka 1213, Bangladesh</p>
 
-                                    <p>+8802324354423 <br></br>
-                                        +8802324354423</p>
+                                        <p>+8802324354423 <br></br>
+                                            +8802324354423</p>
 
-                                    <p>contact@somemail.com</p>
+                                        <p>contact@somemail.com</p>
                                     </div>
-                                
+
                                 </div>
 
 
                             </p>
+                     
                         </ReactBootStrap.Col>
                     </ReactBootStrap.Row>
                 </ReactBootStrap.Container>

@@ -38,7 +38,7 @@ export default function Navbaar() {
               <ReactBootStrap.Nav.Link href="services" className="fw-bolder mynav">
                 <div class="">
 
-                  <div class="stripe">
+                  <div class="stripe2">
 
                   </div>
                   Our Services
@@ -49,23 +49,29 @@ export default function Navbaar() {
               <ReactBootStrap.Nav.Link href="projects" className="fw-bolder mynav">
                 <div class="">
 
-                  <div class="stripe">
+                  <div class="stripe3">
 
                   </div>
                   Projects
                 </div>
               </ReactBootStrap.Nav.Link>
 
+
               <ReactBootStrap.NavDropdown title="About Us" className="fw-bolder mynav" id="collasible-nav-dropdown">
+
                 <ReactBootStrap.NavDropdown.Item href="about" className="fw-bolder" >Our History, <br></br> Mission & Vision</ReactBootStrap.NavDropdown.Item>
                 <ReactBootStrap.NavDropdown.Divider />
                 <ReactBootStrap.NavDropdown.Item href="#action/3.4" className="fw-bolder" >A Message from Our<br></br> Managing Director</ReactBootStrap.NavDropdown.Item>
               </ReactBootStrap.NavDropdown>
 
+
+
+
+
               <ReactBootStrap.Nav.Link href="contact" className="fw-bolder mynav" >
                 <div class="">
 
-                  <div class="stripe">
+                  <div class="stripe5">
 
                   </div>
                   Contact Us

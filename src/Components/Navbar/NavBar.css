@@ -13,14 +13,88 @@
 } */
 
 .stripe{
-    height: 100px ;
+    height: 20px ;
     width: 45px ;
     background: transparent;
     position: absolute;
-    left: 15%;
-    top: -150%;
+    left: 20%;
+    top: 25%;
+    transform: translate(-10%,-10%);
     animation-timing-function: linear;
-    
+
+}
+
+.stripe2{
+    height: 20px ;
+    width: 95px ;
+    background: transparent;
+    position: absolute;
+    left: 15%;
+    top: 25%;
+    transform: translate(-10%,-10%);
+    animation-timing-function: linear;
+
+}
+
+.stripe3{
+    height: 20px ;
+    width: 65px ;
+    background: transparent;
+    position: absolute;
+    left: 15%;
+    top: 25%;
+    transform: translate(-10%,-10%);
+    animation-timing-function: linear;
+
+}
+
+.stripe3:hover{
+    height: 45px;
+    width: 3px;
+    background: rgb(3, 2, 56);
+    position: absolute;
+    left: 50%;
+    top: -90%;
+    transition-timing-function: ease;
+    z-index: 10000000;
+    animation-timing-function: linear;
+
+}
+
+.stripe5{
+    height: 20px ;
+    width: 82px ;
+    background: transparent;
+    position: absolute;
+    left: 15%;
+    top: 25%;
+    transform: translate(-10%,-10%);
+    animation-timing-function: linear;
+
+}
+
+.stripe5:hover{
+    height: 45px;
+    width: 3px;
+    background: rgb(3, 2, 56);
+    position: absolute;
+    left: 50%;
+    top: -90%;
+    transition-timing-function: ease;
+    z-index: 10000000;
+    animation-timing-function: linear;
+}
+
+.stripe2:hover{
+    height: 45px;
+    width: 3px;
+    background: rgb(3, 2, 56);
+    position: absolute;
+    left: 50%;
+    top: -90%;
+    transition-timing-function: ease;
+    z-index: 10000000;
+    animation-timing-function: linear;
 
 }
 
