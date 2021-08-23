@@ -15,6 +15,7 @@ import Projects from './Pages/Projects';
 import OurProjects from './Pages/OurProjects';
 import OurServices from './Pages/OurServices';
 import Home from './Pages/Home';
+import AllPartners from './Pages/AllPartners';
 import Form from "../src/Components/Form/Form"
 import { Helmet } from 'react-helmet';
 
@@ -44,6 +45,7 @@ function App() {
           <Route path="/contact" component={() => <ContactUs />} />
           <Route path="/projects" component={() => <Projects />} />
           <Route path="/services" component={() => <OurServices />} />
+          <Route path="/allpartners" component={() => < AllPartners/>} />
           {/* <Route path="/" component={() => <Projects />} /> */}
         </Switch>
       </BrowserRouter>

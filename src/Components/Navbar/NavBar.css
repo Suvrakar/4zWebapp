@@ -24,78 +24,19 @@
 
 }
 
-.stripe2{
-    height: 20px ;
-    width: 95px ;
-    background: transparent;
-    position: absolute;
-    left: 15%;
-    top: 25%;
-    transform: translate(-10%,-10%);
-    animation-timing-function: linear;
 
-}
 
-.stripe3{
-    height: 20px ;
-    width: 65px ;
-    background: transparent;
-    position: absolute;
-    left: 15%;
-    top: 25%;
-    transform: translate(-10%,-10%);
-    animation-timing-function: linear;
-
-}
-
-.stripe3:hover{
+.test:hover .stripe{
     height: 45px;
     width: 3px;
     background: rgb(3, 2, 56);
     position: absolute;
+    /* display: flex;
+    flex-direction: row; */
     left: 50%;
     top: -90%;
-    transition-timing-function: ease;
-    z-index: 10000000;
-    animation-timing-function: linear;
 
-}
-
-.stripe5{
-    height: 20px ;
-    width: 82px ;
-    background: transparent;
-    position: absolute;
-    left: 15%;
-    top: 25%;
-    transform: translate(-10%,-10%);
-    animation-timing-function: linear;
-
-}
-
-.stripe5:hover{
-    height: 45px;
-    width: 3px;
-    background: rgb(3, 2, 56);
-    position: absolute;
-    left: 50%;
-    top: -90%;
-    transition-timing-function: ease;
-    z-index: 10000000;
-    animation-timing-function: linear;
-}
-
-.stripe2:hover{
-    height: 45px;
-    width: 3px;
-    background: rgb(3, 2, 56);
-    position: absolute;
-    left: 50%;
-    top: -90%;
-    transition-timing-function: ease;
-    z-index: 10000000;
-    animation-timing-function: linear;
-
+    
 }
 
 
@@ -118,25 +59,4 @@
     position: relative;
 }
 
-.mynav:hover > .stripe {
-    top: -200%;
-}
 
-.a{
-    /* height: 45px;
-    width: 3px;
-    border: 1px solid black;
-    background: rgb(3, 2, 56);
-    position: absolute;
-    left: 50%;
-    top: -180%; */
-}
-
-.a:hover{
-    /* height: 45px;
-    width: 3px;
-    background: rgb(3, 2, 56);
-    position: absolute;
-    left: 50%;
-    top: -90%; */
-} 
