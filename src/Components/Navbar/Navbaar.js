@@ -39,7 +39,7 @@ export default function Navbaar() {
               </ReactBootStrap.Nav.Link>
 
               <ReactBootStrap.Nav.Link
-                href="services"
+                href="/services"
                 className="fw-bolder mynav"
               >
                 <div class="test">
@@ -49,7 +49,7 @@ export default function Navbaar() {
               </ReactBootStrap.Nav.Link>
 
               <ReactBootStrap.Nav.Link
-                href="projects"
+                href="/allprojects"
                 className="fw-bolder mynav"
               >
                 <div class="test">
@@ -67,7 +67,7 @@ export default function Navbaar() {
                     id="collasible-nav-dropdown"
                   >
                     <ReactBootStrap.NavDropdown.Item
-                      href="about"
+                      href="/about"
                       className="fw-bolder"
                     >
                       Our History, <br></br> Mission & Vision

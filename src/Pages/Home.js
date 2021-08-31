@@ -7,6 +7,7 @@ import Partners from "../Components/Partners/Partners"
 import { Helmet } from 'react-helmet';
 import Slider from '../Components/Slider/Slider';
 
+
 export default function Home() {
     return (
         <div>

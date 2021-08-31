@@ -1,13 +1,14 @@
 import React from "react";
 import * as ReactBootStrap from "react-bootstrap";
 import "./LatestProject.css";
-import building1 from "../../images/building 1.png";
-import building2 from "../../images/building 2.png";
-import building3 from "../../images/building 3.png";
-import building4 from "../../images/building 4.png";
-import building5 from "../../images/building 5.png";
-import building6 from "../../images/building 6.png";
 import { projects } from "../../data";
+import { Link } from "react-router-dom";
+import {useParams} from "react-router-dom";
+
+// function BlogPost() {
+
+//   return <div>Now showing post {id}</div>;
+// }
 
 export default function LatestProject() {
   let list = [
@@ -23,13 +24,15 @@ export default function LatestProject() {
             {y.map((x) => (
               <ReactBootStrap.Col className="padding-0 px-0">
                 <div className="ProjectImg ourPrjct c">
-                  <img src={x.projectImg} alt="Img1" class="image px-0"></img>
-                  <div class="middle">
-                    <div class="text">
+                  <Link to={`/building/${x.projectName}`}>
+                    <img src={x.projectImg} alt="Img1" class="image px-0"></img>
+                    <div class="middle">
+                      <div class="text">
                         <h4>{x.projectName}</h4>
-                        {/* <p style={{overflow:"hidden"}}>{x.shortDes}</p> */}
-                        </div>
-                  </div>
+                        <p style={{overflow:"hidden", text:"text-truncate"}}>{x.shortDes}</p>
+                      </div>
+                    </div>
+                  </Link>
                 </div>
               </ReactBootStrap.Col>
             ))}
@@ -37,9 +40,11 @@ export default function LatestProject() {
         ))}
 
         <div class="text-center p-4">
-          <ReactBootStrap.Button variant="primary rounded-pill blue ">
-            All Projects
-          </ReactBootStrap.Button>{" "}
+          <Link to="/allprojects">
+            <ReactBootStrap.Button variant="primary rounded-pill blue ">
+              All Projects
+            </ReactBootStrap.Button>{" "}
+          </Link>
         </div>
       </ReactBootStrap.Container>
     </div>

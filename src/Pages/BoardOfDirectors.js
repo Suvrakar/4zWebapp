@@ -3,7 +3,7 @@ import * as ReactBootStrap from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { directors } from "../data";
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 
 export default function BoardOfDirectors() {
   directors.map((obj) => {
@@ -14,15 +14,15 @@ export default function BoardOfDirectors() {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
-      items: 1,
+      items: 3,
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 1,
+      items: 3,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 1,
+      items: 3,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
@@ -65,9 +65,9 @@ export default function BoardOfDirectors() {
                 })}
               </Carousel>
               ;
-              <Fade bottom>
+              {/* <Fade bottom>
                 <h1>React Reveal</h1>
-              </Fade>
+              </Fade> */}
             </div>
           </ReactBootStrap.Col>
         </ReactBootStrap.Row>

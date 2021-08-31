@@ -14,7 +14,8 @@ export default function BuildingName() {
   const [show, setShow] = useState(false);
 
   let { id } = useParams();
-  let element = projects[id];
+  let element = projects.find((x) => x.projectName === id);
+
   // let img=element.
   const responsive = {
     superLargeDesktop: {
