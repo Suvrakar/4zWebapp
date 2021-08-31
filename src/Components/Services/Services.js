@@ -12,7 +12,6 @@ export default function Services() {
 
         return (
             <div>
-        
                 <ReactBootStrap.Container>
                     <h1 class="text-center pb-4 fw-bolder">Our Services</h1>
                     <ReactBootStrap.Row>

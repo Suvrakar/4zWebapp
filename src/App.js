@@ -16,6 +16,8 @@ import OurProjects from './Pages/OurProjects';
 import OurServices from './Pages/OurServices';
 import Home from './Pages/Home';
 import AllPartners from './Pages/AllPartners';
+import BoardOfDirectors from './Pages/BoardOfDirectors';
+import MessageofMD from "./Pages/MessageofMD"
 import Form from "../src/Components/Form/Form"
 import { Helmet } from 'react-helmet';
 
@@ -42,6 +44,8 @@ function App() {
         <Switch>
           <Route exact path="/" component={() => <Home />} />
           <Route path="/about" component={() => <AboutUs />} />
+          <Route path="/messageofmd" component={() => <MessageofMD />} />
+          <Route path="/bdirectors" component={() => <BoardOfDirectors />} />
           <Route path="/contact" component={() => <ContactUs />} />
           <Route path="/projects" component={() => <Projects />} />
           <Route path="/services" component={() => <OurServices />} />

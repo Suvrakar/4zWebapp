@@ -36,20 +36,7 @@ export default function Navbaar() {
                   <div class="stripe"></div>
                   Home
                 </div>
-              </ReactBootStrap.Nav.Link
-              >
-
-              <ReactBootStrap.NavLink
-                exact
-                activeClassName="navbar__link--active"
-                className="navbar__link fw-bolder mynav"
-                to="/"
-              >
-                  <div class="test">
-                  <div class="stripe"></div>
-                  Home
-                </div>
-              </ReactBootStrap.NavLink>
+              </ReactBootStrap.Nav.Link>
 
               <ReactBootStrap.Nav.Link
                 href="services"
@@ -87,17 +74,24 @@ export default function Navbaar() {
                     </ReactBootStrap.NavDropdown.Item>
                     <ReactBootStrap.NavDropdown.Divider />
                     <ReactBootStrap.NavDropdown.Item
-                      href="#action/3.4"
+                      href="/messageofmd"
                       className="fw-bolder"
                     >
                       A Message from Our<br></br> Managing Director
+                    </ReactBootStrap.NavDropdown.Item>
+                    <ReactBootStrap.NavDropdown.Divider />
+                    <ReactBootStrap.NavDropdown.Item
+                      href="/bdirectors"
+                      className="fw-bolder"
+                    >
+                      Board of Directors
                     </ReactBootStrap.NavDropdown.Item>
                   </ReactBootStrap.NavDropdown>
                 </div>
               </div>
 
               <ReactBootStrap.Nav.Link
-                href="projects"
+                href="contact"
                 className="fw-bolder mynav"
               >
                 <div class="test">
@@ -105,15 +99,7 @@ export default function Navbaar() {
                   Contact Us
                 </div>
               </ReactBootStrap.Nav.Link>
-              <ReactBootStrap.Nav.Link
-                href="projects"
-                className="fw-bolder mynav"
-              >
-                <div class="test">
-                  <div class="stripe"></div>
-                  Elahi
-                </div>
-              </ReactBootStrap.Nav.Link>
+
               {/* <ReactBootStrap.Nav.Link eventKey={2} href="#memes">
                 Dank memes
               </ReactBootStrap.Nav.Link> */}

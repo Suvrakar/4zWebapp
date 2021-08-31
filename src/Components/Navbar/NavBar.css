@@ -7,12 +7,7 @@
     width: 80px;
 }
 
-
-/* .mynav:hover{
-    color: aqua !important;
-} */
-
-.stripe{
+/* .stripe{
     height: 20px ;
     width: 45px ;
     background: transparent;
@@ -22,7 +17,7 @@
     transform: translate(-10%,-10%);
     animation-timing-function: linear;
 
-}
+} */
 
 
 
@@ -40,7 +35,7 @@
 }
 
 
-.stripe:hover{
+/* .stripe:hover{
     height: 45px;
     width: 3px;
     background: rgb(3, 2, 56);
@@ -51,7 +46,7 @@
     z-index: 10000000;
     animation-timing-function: linear;
 
-}
+} */
 
 
 
