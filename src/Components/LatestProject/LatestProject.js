@@ -29,7 +29,7 @@ export default function LatestProject() {
                     <div class="middle">
                       <div class="text">
                         <h4>{x.projectName}</h4>
-                        <p style={{overflow:"hidden", text:"text-truncate"}}>{x.shortDes}</p>
+                        {/* <p style={{overflow:"hidden", text:"text-truncate"}}>{x.shortDes}</p> */}
                       </div>
                     </div>
                   </Link>
