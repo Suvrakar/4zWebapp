@@ -60,3 +60,11 @@
     background-color:  #022644 !important;
     border: #022644 !important; 
 }
+
+.Elip{
+  white-space: nowrap; 
+  width: 400px; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  font-size: medium;
+}

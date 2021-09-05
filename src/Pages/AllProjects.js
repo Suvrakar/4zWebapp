@@ -20,9 +20,9 @@ export default function AllProjects() {
                   src={projects[idx].projectImg}
                 />
                 <ReactBootStrap.Card.Body>
-                  <ReactBootStrap.Card.Title className="text-center">
+                  <ReactBootStrap.Card.Title className="text-center" style={{fontSize:"x-large"}}>
                     {projects[idx].projectName}
-                    <ReactBootStrap.Card.Text>
+                    <ReactBootStrap.Card.Text style={{textAlign: 'justify', fontSize:"medium"}}>
                       {projects[idx].shortDes}
                     </ReactBootStrap.Card.Text>
                     <Link to={`/building/${projects[idx].projectName}`}>

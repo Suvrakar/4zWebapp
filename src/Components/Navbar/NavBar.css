@@ -26,13 +26,12 @@
     width: 3px;
     background: rgb(3, 2, 56);
     position: absolute;
-    /* display: flex;
-    flex-direction: row; */
     left: 50%;
     top: -90%;
-
     
 }
+
+
 
 
 /* .stripe:hover{
@@ -54,4 +53,7 @@
     position: relative;
 }
 
+.p:active{
+    color: brown;
+}
 

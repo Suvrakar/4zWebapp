@@ -3,7 +3,7 @@ import * as ReactBootStrap from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { directors } from "../data";
-// import Fade from 'react-reveal/Fade';
+import Fade from 'react-reveal/Fade';
 
 export default function BoardOfDirectors() {
   directors.map((obj) => {
@@ -58,8 +58,10 @@ export default function BoardOfDirectors() {
                 {directors.map((obj) => {
                   return (
                     <div>
-                      <img src={obj.projectImg}></img>
-                      <h5>{obj.projectName}</h5>
+                      <img src={obj.Img}></img>
+                      <h3>{obj.Name}</h3>
+                      <h5>{obj.Position}</h5>
+                      <h5>{obj.email}</h5>
                     </div>
                   );
                 })}

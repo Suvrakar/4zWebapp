@@ -25,6 +25,7 @@ export default function Navbaar() {
               <ReactBootStrap.Nav.Link href="#features"></ReactBootStrap.Nav.Link>
               <ReactBootStrap.Nav.Link href="#pricing"></ReactBootStrap.Nav.Link>
             </ReactBootStrap.Nav>
+            
             <ReactBootStrap.Nav>
               <ReactBootStrap.Nav.Link
                 href="/"
